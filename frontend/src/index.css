@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-acid: #D9F612;
+  --color-void: #09090B;
+  --font-sans: 'Clash Display', 'Space Grotesk', system-ui, sans-serif;
+}
+
+body {
+  @apply bg-void text-white antialiased selection:bg-acid selection:text-black;
+}
